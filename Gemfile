@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rails'
+gem 'heroku'
 gem 'jekyll'
 gem 'json'
 gem 'jekyll-assets'
