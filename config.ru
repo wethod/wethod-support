@@ -18,13 +18,10 @@ use Rack::TryStatic,
 
 
 # Serve a 404 page if all else fails
-run lambda { |env|
+run lambda {|env| 
   [
-    404,
-    {
-      "Content-Type" => "text/html",
-      "Cache-Control" => "public, max-age=60"
-    },
-    File.open("_site/404.html", File::RDONLY)
+    404, 
+    {'Content-type' => 'text/plain'}, 
+    ['Not found']
   ]
 }
