@@ -1,1 +1,1 @@
-web: bundle exec jekyll build -c _config.yml && cd _site && bundle exec rails server -p 80
+web: bundle exec puma -C config/puma.rb
