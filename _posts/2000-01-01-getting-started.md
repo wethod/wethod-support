@@ -2,7 +2,10 @@
 title: Getting Started
 section: Overview
 index: 1
+published: true
 ---
+
+![logo_wethod-03-1.png]({{site.baseurl}}/_posts/logo_wethod-03-1.png)
 
 WETHOD è lo strumento per gestire persone e progetti in modo collaborativo.
 Pensato per aziende di servizi, WETHOD consente di semplificare le attività di project management: va all’essenza delle regole del coordinamento e della pianificazione delle attività e consente per questo di ricavare più tempo per le attività stesse. Distribuendo la responsabilità a tutti i membri del team, WETHOD riduce lo stress della supervisione sui progetti.
