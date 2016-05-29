@@ -1,1 +1,1 @@
-web: bin/heroku-php-apache2 web/
+web: bundle exec jekyll build -c _config.yml && cd _site && bundle exec rails server -p 80
