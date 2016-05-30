@@ -4,10 +4,6 @@ require "rack"
 require "rack/contrib/try_static"
 
 
-# Build the static site when the app boots
-`bundle exec jekyll build -c _config.yml`
-
-
 # Enable proper HEAD responses
 use Rack::Head
 # Attempt to serve static HTML files
