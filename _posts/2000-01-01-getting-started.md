@@ -14,4 +14,4 @@ Il risultato è un sistema integrato che gestisce tutte le informazioni essenzia
 
 ## Creazione di un account
 
-Visita https://app.wethod.com/registration per creare il tuo team e iniziare il periodo di prova gratuito per 30 giorni.
+Visita [https://app.wethod.com/registration](https://app.wethod.com/registration) per creare il tuo team e iniziare il periodo di prova gratuito per 30 giorni.
