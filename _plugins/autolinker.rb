@@ -14,7 +14,7 @@ module Autolinker
       overriding_text = tokens.pop
       slugified_target_post_title = Jekyll::Utils.slugify(target_post_title)
       Jekyll.logger.debug "Looking for page with slug #{slugified_target_post_title.inspect}"
-      target_post = site.posts.find do |p|
+      target_post = site.posts.docs.find do |p|
         p.slug == slugified_target_post_title
       end
       raise "No internal page match found for #{match}" unless target_post
