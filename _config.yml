@@ -1,5 +1,5 @@
 name: Wethod Help
-baseurl: /
+baseurl: 
 permalink: /:title
 gems: 
   - jekyll-assets
