@@ -35,7 +35,7 @@ task :auto_slug do
       title = title.gsub("&amp;", "and")
       slug = Jekyll::Utils.slugify(title)
 
-      new_filename = "2000-01-01-#{slug}.md"
+      new_filename = "2016-09-06-#{slug}.md"
       if new_filename != filename
         puts "Renaming #{filename} to #{new_filename}..."
         #system!("git mv #{filename} #{new_filename}")

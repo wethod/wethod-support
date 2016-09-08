@@ -3,6 +3,7 @@ title: Getting Started
 section: Overview
 index: 1
 published: true
+layout: default
 ---
 
 ![logo_wethod-03-1.png]({{site.baseurl}}/_posts/logo_wethod-03-1.png)
